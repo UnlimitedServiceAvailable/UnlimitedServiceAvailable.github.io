@@ -43,28 +43,6 @@ body{
     display: flow-root;
   
 }
-
-button{
-    font-size: larger;
-    border-radius: 10px;
-    border-style: solid;
-    color: white;
-    background-color: lightslategray;
-    border-color: wheat;
-}
-
-.dc{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-}
-
-ul{
-    font-size: larger;
-}
-
 footer{
     text-align: center;
     border-style: solid;
@@ -73,23 +51,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-
-.under{
-    text-align: center;
-    font-size: 1.5em;
-}
-
 .logo{
     float: left;
    
 }
-.timg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-radius: 19px;
-}
-
-
-    
