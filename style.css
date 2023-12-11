@@ -1,17 +1,19 @@
 .topnav {
     background-color: #8e94a8;
     overflow: hidden;
+    
+    
    
   }
   
  
   .topnav a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   
@@ -41,17 +43,35 @@ body{
     border-width: 4px;
     border-radius: 10px;
     display: flow-root;
-  
+    background-image: url(front\ page.jpeg);
+    background-size: cover;
+
 }
 
-button{
-    font-size: larger;
-    border-radius: 10px;
-    border-style: solid;
-    color: white;
-    background-color: lightslategray;
-    border-color: wheat;
+.un{
+    font-size: 3.5em;
+    text-shadow: 4px 4px #000000;
+
 }
+
+.TEAM{
+    text-align: center;
+    font-size: 2em;
+    background-image: url(concrete.jpg);
+    background-size: cover;
+    
+    border-style: solid;
+    border-radius: 10px;
+    text-shadow: 4px 4px #000000;
+    padding: 13px;
+    background-repeat: repeat-y;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+    
+}
+
 
 .dc{
     display: block;
@@ -64,7 +84,9 @@ button{
 ul{
     font-size: larger;
 }
-
+a{
+    color: white;
+}
 footer{
     text-align: center;
     border-style: solid;
@@ -72,6 +94,7 @@ footer{
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
+    display: flow-root;
 }
 
 .under{
@@ -91,5 +114,53 @@ footer{
     border-radius: 19px;
 }
 
+.logo1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  /* lol is images for the boxes inside "box" */
+
+.lol{
+  max-width: 500px;
+  min-width: auto;
+  height: auto;
+  width: 100%;
+  padding: 5%;
+
+  
+
+ 
+
+  
+
+}
+.box{
+  
+}
+
+
