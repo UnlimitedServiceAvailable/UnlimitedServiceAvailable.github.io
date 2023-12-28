@@ -6,7 +6,7 @@
   
  
   .topnav a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -30,6 +30,7 @@ body{
     background-color: grey;
     color: white;
     font-family: 'League Spartan', sans-serif;
+    text-align: center;
     
 
 
@@ -69,4 +70,26 @@ footer{
   height: auto;
   width: 100%;
   padding: 5%;
+}
+
+.gc{
+  text-align: center;
+  background-color:dimgray;
+  border-radius: 10px;
+  border-style: solid;
+  margin: 4%;
+}
+
+.genpain{
+  max-width: 500px;
+  min-width: auto;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.main{
+  font-size: 2.1em;
 }
