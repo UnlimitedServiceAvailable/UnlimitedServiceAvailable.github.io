@@ -30,6 +30,7 @@ body{
     background-color: grey;
     color: white;
     font-family: 'League Spartan', sans-serif;
+    text-align: center;
     
 
 
@@ -71,20 +72,10 @@ body{
 }
 
 
-.dc{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-}
 
-ul{
-    font-size: larger;
-}
-a{
-    color: white;
-}
+
+
+
 footer{
     text-align: center;
     border-style: solid;
@@ -95,22 +86,9 @@ footer{
     display: flow-root;
 }
 
-.under{
-    text-align: center;
-    font-size: 1.5em;
-}
 
-.logo{
-    float: left;
-   
-}
-.timg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-radius: 19px;
-}
+
+
 
 .logo1{
     display: block;
@@ -118,45 +96,89 @@ footer{
     margin-right: auto;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+
 
   /* lol is images for the boxes inside "box" */
 
-.lol{
+
+
+
+ 
+    
+
+
+
+
+.ddd{
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  display: flow-root;
+  background-image: url(front\ page.jpeg);
+  background-size: cover;
+
+}
+
+.un{
+  font-size: 3.5em;
+  text-shadow: 4px 4px #000000;
+
+}
+footer{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.proimg{
+  
   max-width: 500px;
   min-width: auto;
   height: auto;
   width: 100%;
   padding: 5%;
-
-  
-
- 
-
-  
-
 }
+
+.gc{
+  text-align: center;
+  background-color:dimgray;
+  border-radius: 10px;
+  border-style: solid;
+  margin: 4%;
+}
+
+.genpain{
+  max-width: 500px;
+  min-width: auto;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.main{
+  font-size: 2.1em;
+}
+
+.dc{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.contactcenter{
+  text-align: initial;
+}
+
+
 
 
 

@@ -25,6 +25,10 @@
     background-color: #5c65e0;
     color: white;
   }
+  
+  
+  
+
 
 body{
     background-color: grey;
@@ -92,4 +96,11 @@ footer{
 
 .main{
   font-size: 2.1em;
+}
+
+.aboutus{
+  background-color: darkgrey;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 3%;
 }
