@@ -42,7 +42,7 @@ body{
     border-width: 4px;
     border-radius: 10px;
     display: flow-root;
-    background-image: url(front\ page.jpeg);
+    
     background-size: cover;
 
 }
@@ -71,6 +71,22 @@ body{
     
 }
 
+.PATIO{
+  text-align: center;
+    font-size: 2em;
+    background-image: url(a\ patio.jpeg);
+    background-size: cover;
+    
+    border-style: solid;
+    border-radius: 10px;
+    text-shadow: 4px 4px #000000;
+    padding: 13px;
+    background-repeat: repeat-y;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    
+}
 
 
 
@@ -109,16 +125,7 @@ footer{
 
 
 
-.ddd{
-  text-align: center;
-  border-style: solid;
-  border-width: 4px;
-  border-radius: 10px;
-  display: flow-root;
-  background-image: url(front\ page.jpeg);
-  background-size: cover;
 
-}
 
 .un{
   font-size: 3.5em;
@@ -179,7 +186,19 @@ footer{
 }
 
 
+/* For devices smaller than 400px: */
+  
 
+.ddd {
+  background-image: url('a\ front\ small.jpeg');
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 300px) {
+  .ddd {
+    background-image: url('apartmentftony.jpeg');
+  }
+}
 
 
 
