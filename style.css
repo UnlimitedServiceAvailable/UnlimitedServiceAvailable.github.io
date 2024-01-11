@@ -42,7 +42,7 @@ body{
     border-width: 4px;
     border-radius: 10px;
     display: flow-root;
-    
+    text-shadow: 4px 4px #000000;
     background-size: cover;
 
 }
@@ -64,8 +64,7 @@ body{
     text-shadow: 4px 4px #000000;
     padding: 13px;
     background-repeat: repeat-y;
-    margin-left: 10%;
-    margin-right: 10%;
+    
     
     
     
@@ -74,7 +73,7 @@ body{
 .PATIO{
   text-align: center;
     font-size: 2em;
-    background-image: url(a\ patio.jpeg);
+    
     background-size: cover;
     
     border-style: solid;
@@ -82,8 +81,7 @@ body{
     text-shadow: 4px 4px #000000;
     padding: 13px;
     background-repeat: repeat-y;
-    margin-left: 30%;
-    margin-right: 30%;
+    
     
     
 }
@@ -202,4 +200,14 @@ footer{
 
 
 
+.PATIO {
+  background-image: url('a\ patio.jpeg');
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+  .PATIO {
+    background-image: url('a\ patio\ smol.jpeg');
+  }
+}
 
